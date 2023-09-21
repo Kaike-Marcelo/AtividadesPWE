@@ -1,0 +1,82 @@
+header{
+    background-color: #bc0404;
+    color: white;
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid red;
+}
+
+.itensEsquerda.redesSociais img{
+    width: 12%;
+    justify-content: center;
+    margin: 6%;
+}
+
+.itensDireita a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration-line: none;
+}
+
+.itensDireita img{
+    width: 15%;
+}
+
+.areaAnuncio{
+    background-color: #ececec;
+    padding: 1px;
+}
+
+.areaAnuncio.anuncio{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.reportagem{
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 35%;
+}
+
+.autor{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.autor a{
+    color: black;
+    text-decoration: none;
+}
+
+.fotoReportagem.foto img{
+    width: 96%;
+}
+
+.fotoReportagem.descricao{
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 14pt;
+    color: grey;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: #bc0404;
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+hr{
+    border-color: white;
+}
